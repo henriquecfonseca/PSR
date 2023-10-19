@@ -3,7 +3,7 @@ import cv2
 
 def main():
 
-    image_filename = '/home/henrique/Desktop/psr/p5/images/atlascar.png'
+    image_filename = '/home/henrique/Desktop/psr_23-24/p5/images/atlascar.png'
     image = cv2.imread(image_filename, cv2.IMREAD_COLOR) # Load an image
 
     cv2.imshow('window', image)  # Display the image
