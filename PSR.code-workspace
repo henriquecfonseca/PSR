@@ -2,9 +2,6 @@
 	"folders": [
 		{
 			"path": "."
-		},
-		{
-			"path": "../../../psr_23-24"
 		}
 	],
 	"settings": {}
