@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 import argparse
-
 from colorama import Fore, Style
 import rospy
 from std_msgs.msg import String
