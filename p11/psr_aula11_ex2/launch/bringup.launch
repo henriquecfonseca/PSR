@@ -1,0 +1,34 @@
+</launch>
+    <node pkg="psr_aula11_ex2" type="circular_frame.py" name="Terra" output="screen">
+        <remap from='parent' to='Sol' />
+        <remap from='child' to='Terra' />
+        <param name="radius" type="double" value="1.0" />
+        <param name="velocity" type="double" value="1.0" />
+    </node>
+    <node pkg="psr_aula11_ex2" type="circular_frame.py" name="Lua" output="screen">
+        <remap from='parent' to='Terra' />
+        <remap from='child' to='Lua' />
+        <param name="radius" type="double" value="1.0" />
+        <param name="velocity" type="double" value="1.0" />
+    </node>
+    <node pkg="psr_aula11_ex2" type="circular_frame.py" name="Mercurio" output="screen">
+        <remap from='parent' to='Sol' />
+        <remap from='child' to='Mercurio' />
+        <param name="radius" type="double" value="1.0" />
+        <param name="velocity" type="double" value="1.0" />
+    </node>
+    <node pkg="psr_aula11_ex2" type="circular_frame.py" name="Marte" output="screen">
+        <remap from='parent' to='Sol' />
+        <remap from='child' to='Marte' />
+        <param name="radius" type="double" value="1.0" />
+        <param name="velocity" type="double" value="1.0" />
+    </node>
+    <node pkg="psr_aula11_ex2" type="circular_frame.py" name="Mercurio" output="screen">
+        <remap from='parent' to='Sol' />
+        <remap from='child' to='Mercurio' />
+        <param name="radius" type="double" value="1.0" />
+        <param name="velocity" type="double" value="1.0" />
+    </node>
+    <node pkg="rviz" type="rviz" name="rviz" output="screen">
+</launch>
+
