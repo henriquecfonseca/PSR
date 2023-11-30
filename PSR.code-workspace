@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../Desktop/psr_23-24"
 		}
 	],
 	"settings": {}
