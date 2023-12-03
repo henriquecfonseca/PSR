@@ -3,7 +3,7 @@
 import argparse
 import rospy
 from std_msgs.msg import String
-from psr_aula8_ex4_aula.msg import Dog
+from psr_aula8_ex4.msg import Dog
 
 
 def main():
