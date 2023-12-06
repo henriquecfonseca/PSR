@@ -1,0 +1,15 @@
+<launch>
+
+    <node pkg="rosbag" type="play" name="play_node" output="screen"
+        args="/home/henrique/catkin_ws/src/bagfiles_p10/pr2/pr2_mit_demo_pari.bag -l">
+    </node>
+
+    <node pkg="rviz" type="rviz" name="rviz_node" output="screen"
+        args="-d $(find psr_aula_10)/config/config.rviz">
+    </node>
+
+    <include file="$(find pr2_description)/robots/upload_pr2.launch">
+    </include>
+
+</launch>
+
